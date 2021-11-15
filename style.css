@@ -1,0 +1,49 @@
+/* Font */
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Lato',sans-serif;
+}
+
+@media screen and (max-width: 992px) { 
+    .navbar {
+        min-height: 75px;
+        background-color: #393E46;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    
+    .logo {
+        color: white;
+        font-weight: 900;
+        font-size: 24px;
+        font-style: italic;
+    }
+    
+    .nav-items {
+        color: white;
+        text-decoration: none;
+        font-size: 24px;
+        margin: 30px;
+    }
+}
+
+
+
+@media screen  and (max-width: 600px){
+    .navbar {
+        min-height: 75px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .nav-items {
+        font-size: 18px;
+        margin: 10px;
+    }
+}
